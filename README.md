@@ -46,8 +46,5 @@ License
 This repository is open-source and is available under the MIT License. You are free to use, modify, and distribute the code as per the terms and conditions of the license.
 
 Credits
-This repository is maintained by Alexandre Gautier. Contributions and ideas from other contributors are greatly appreciated. If you find this repository helpful, don't forget to acknowledge the original authors and contributors.
-
-For further information or inquiries, feel free to contact Alexandre Gautier via [email address].
-
+This repository is maintained by Alexandre Gautier. Contributions and ideas from other contributors are greatly appreciated. If you find this repository helpful, don't forget to acknowledge the original author oof the project
 Happy coding!
