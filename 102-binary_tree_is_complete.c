@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 levelorder_queue_t *create_node(binary_tree_t *node);
-void free_queue(binarytree_t *node, levelorder_queue_t *head,
+void free_queue(binary_tree_t *node, levelorder_queue_t *head,
 		levelorder_queue_t **tail);
 void pop(levelorder_queue_t **head);
 int binary_tree_is_complete(const binary_tree_t *tree);
@@ -20,7 +20,7 @@ levelorder_queue_t *create_node(binary_tree_t *node)
 	new = malloc(sizeof(levelorder_queue_t));
 	if (new == NULL)
 		return (NULL);
-	new->>node = node;
+	new->node = node;
 	new->next = NULL;
 
 	return (new);
